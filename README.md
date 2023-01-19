@@ -21,8 +21,10 @@ This tool loads file-based datasets into Snowflake instance. The user has contro
   - if the files are stored at one of the above three cloud vendors, a Snowflake integration must already be setup
   - Python 3.6+ must be installed on your machine
   - the following Python external libaries must be installed:
-    - boto3 ()
-    - google.cloud.storage ()
-    - azure.storage.blob ()
-    - smart_open ()
-    - snowflake.connector ()
+    - boto3
+    - google.cloud.storage
+    - azure.storage.blob
+    - smart_open
+    - snowflake.connector
+
+These libaries can all be found at https://pypi.org/
