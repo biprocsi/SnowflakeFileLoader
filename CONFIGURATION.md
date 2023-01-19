@@ -36,4 +36,4 @@ You must populate the following fields:
   - _TableName_ (the target table)
 
 You can optionally provide a comma-seperated list of the columns by which you would like the table to be clustered
-  - _ClusterByCols_
+  - _ClusterByCols_ (e.g. 'my_date_col,my_name_col')
