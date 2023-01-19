@@ -1,0 +1,6 @@
+FilePattern,FileType,Delimiter,HasHeader,DatabaseName,SchemaName,TableName,ClusterByCols
+.*MyFilePattern_1.*,csv,comma,N,MY_DB_1,MY_SCHEMA_1,MY_TABLE_1,MY_COL_1
+.*MyFilePattern_2.*,csv,pipe,N,MY_DB_1,MY_SCHEMA_1,MY_TABLE_2,
+.*MyFilePattern_3.*,csv,;,N,MY_DB_1,MY_SCHEMA_2,MY_TABLE_1,MY_COL_1
+.*MyFilePattern_4.*,csv,#,N,MY_DB_2,MY_SCHEMA_1,MY_TABLE_1,MY_COL_1
+.*MyFilePattern_5.*,csv,~,Y,MY_DB_3,MY_SCHEMA_1,MY_TABLE_1,"MY_COL_1,MY_COL_2,MY_COL_3"

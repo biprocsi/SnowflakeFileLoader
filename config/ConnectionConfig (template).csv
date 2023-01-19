@@ -1,0 +1,14 @@
+Property,Value
+Source,{Azure / GCS / S3 / Local}
+Bucket,mybucket/
+Prefix,myfodler/
+AWSAccessKeyId,{private key/string}
+AWSSecretAccessKey,{private key/string}
+GCSServiceAccountPath,{private key/string}
+AzureConnectionString,{private key/string}
+AzureTenantId,{private key/string}
+SnowflakeIntegration,MY_SNOWFLAKE_INTEGRATION
+SnowflakeAccountId,{private key/string}
+SnowflakeUsername,MyUsername
+SnowflakePassword,MyPassword
+SnowflakeWarehouse,MY_WAREHOUSE
