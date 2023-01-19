@@ -1,10 +1,10 @@
-#README
+# README
 
 This tool loads file-based datasets into Snowflake instance. The user has control over the data and connections (to the raw files and to the Snowflake instance) via config files.
 
 
 
-##Deployment:
+## Deployment:
   1. create a folder somewhere in your machine and place the both the "SnowflakeFileLoader.py" and "filehelper.py" there
   2. inside the folder above, create a subfolder called "Config"
   3. inside the Config folder place the two config files - "DataConfig.csv" and "ConnectionConfig.csv"
@@ -15,7 +15,7 @@ This tool loads file-based datasets into Snowflake instance. The user has contro
  
  
 
-##Requirements:
+## Requirements:
   - the Snowflake instance must be established
   - the files must exist in an accessible location in one of Azure (blob), GCS, S3 or in a folder on your local machine
   - if the files are stored at one of the above three cloud vendors, a Snowflake integration must already be setup
