@@ -15,7 +15,7 @@ You must populate the following fields:
   - _SnowflakePassword_
   - _SnowflakeWarehouse_
 
-You must populate the relevant fields if your are importing from cloud (you can leave the non-relevant ones blank):
+If importing from the cloud you must also provide the relevant credentials below (you can leave the rest blank):
   - _AWSAccessKeyId_
   - _AWSSecretAccessKey_
   - _GCSServiceAccountPath_
