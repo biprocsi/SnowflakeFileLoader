@@ -11,7 +11,7 @@ This tool loads file-based datasets into Snowflake instance. The user has contro
   4. fill out the two config forms (see CONFIGURATION for further details)
   5. deploy the master database, FILE_LOADER_MASTER_DB, by running the script "DeployMasterDatabase.sql" in Snowflake
   
- The tools should now be ready to run.
+You can now run the tool.
  
  
 
