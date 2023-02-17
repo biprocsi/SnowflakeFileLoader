@@ -9,7 +9,7 @@ This tool loads file-based datasets into Snowflake instance. The user has contro
   2. inside the folder above, create a subfolder called "Config"
   3. inside the Config folder place the two config files - "DataConfig.csv" and "ConnectionConfig.csv"
   4. fill out the two config forms (see CONFIGURATION for further details)
-  5. run FILE_LOADER_MASTER_DB the script "DeployMasterDatabase.sql" on your Snowflake instance
+  5. run "DeployMasterDatabase.sql" (to create FILE_LOADER_MASTER_DB) on your Snowflake instance
   
 You can now run the tool.
  
